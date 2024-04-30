@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge"
+  >
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Ex02 with CSS</title>
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
+</head>
+
+<body>
+
+  <nav class="nav-details">
+    <ul>
+      <li>
+        <a
+          href="https//www.google.com"
+          title="Home"
+        >Home</a> *
+      </li>
+      <li>
+        <a
+          href="https//www.google.com"
+          title="Customer Service"
+        >Customer Service</a> *
+      </li>
+      <li>
+        <a
+          href="https//www.google.com"
+          title="Contact"
+        >Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+
+      <h1 class="headings">Place Order</h1>
+
+      <article>
+        <p>This is the <b>guest checkout</b></p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est
+          laborum.
+        </p>
+      </article>
+
+      <article>
+        <h2 class="headings">Order Now</h2>
+        <p class="centre">
+          On our website <span class="modified-text">no account is needed</span>.
+        </p>
+        <ol>
+          <li>First we need some info about yourself.<b>Don't forget to provide a phone</b>.</li>
+          <li>Then we need your real shipping address.</li>
+          <li>Finally, your credit card information.</li>
+        </ol>
+      </article>
+
+      <form>
+        <div class="place-order-form">
+          <div class="order-form personal-info">
+
+            <ul>
+              <li>
+                <h2 class="headings">Personal Information</h2>
+              </li>
+              <li>
+                <label>Title:</label>
+                <label for="male">Mr</label>
+                <input
+                  type="radio"
+                  name="gender"
+                  id="male"
+                  title="male"
+                  checked
+                >
+                <label for="female">Ms</label>
+                <input
+                  type="radio"
+                  name="gender"
+                  id="female"
+                  title="female"
+                >
+                <label for="na">Unspecified</label>
+                <input
+                  type="radio"
+                  name="gender"
+                  id="na"
+                  title="na"
+                >
+              </li>
+              <li>
+                <ul class="block-list">
+                  <li>
+                    <ul class="align-with-placeholder">
+                      <li>
+                        <label for="name1">*Name:</label>
+                      </li>
+                      <li>
+                        <label for="surname1">*Surname:</label>
+                      </li>
+                      <li>
+                        <label for="email1">*Email:</label>
+                      </li>
+                      <li>
+                        <label for="phone1">*Phone:</label>
+                      </li>
+
+                    </ul>
+                  </li>
+                  <li>
+                    <ul>
+                      <li>
+                        <input
+                          type="text"
+                          name="name"
+                          id="name1"
+                          placeholder="Name"
+                          required
+                        >
+                      </li>
+                      <li>
+                        <input
+                          type="text"
+                          name="surname"
+                          id="surname1"
+                          placeholder="Surname"
+                          required
+                        >
+                      </li>
+                      <li>
+                        <input
+                          type="email"
+                          name="email"
+                          id="email"
+                          placeholder="Email"
+                          required
+                        >
+                      </li>
+                      <li>
+                        <input
+                          type="tel"
+                          name="phone"
+                          id="phone1"
+                          placeholder="Phone"
+                          required
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="order-form address">
+            <ul>
+              <li>
+                <h2 class="headings">Address</h2>
+              </li>
+              <li>
+                <ul class="block-list">
+                  <li>
+                    <ul class="align-with-placeholder-2">
+                      <li>
+                        <label for="name2">*Name:</label>
+                      </li>
+                      <li>
+                        <label for="surname2">*Surname:</label>
+                      </li>
+                      <li>
+                        <label for="phone2">*Phone:</label>
+                      </li>
+                      <li>
+                        <label for="address1">*Address1:</label>
+                      </li>
+                      <li>
+                        <label for="address2">Address2:</label>
+                      </li>
+                      <li>
+                        <label for="city">*City:</label>
+                      </li>
+                      <li>
+                        <label for="state">*State:</label>
+                      </li>
+                      <li>
+                        <label for="postcode">*Postcode:</label>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul class="move-placeholder">
+                      <li>
+                        <input
+                          type="text"
+                          name="name"
+                          id="name2"
+                          placeholder="Name"
+                          required
+                        >
+                      </li>
+
+                      <li>
+                        <input
+                          type="text"
+                          name="surname"
+                          id="surname2"
+                          placeholder="Surname"
+                          required
+                        >
+                      </li>
+
+                      <li>
+                        <input
+                          type="tel"
+                          name="phone"
+                          id="phone2"
+                          placeholder="Phone"
+                          required
+                        >
+                      </li>
+
+                      <li>
+                        <input
+                          type="text"
+                          name="address"
+                          id="address1"
+                          placeholder="Address Line 1"
+                          required
+                        >
+                      </li>
+
+                      <li>
+                        <input
+                          type="text"
+                          name="address"
+                          id="address2"
+                          placeholder="Address Line 2"
+                        >
+                      </li>
+
+                      <li>
+                        <select
+                          name="state"
+                          id="state"
+                        >
+                          <option value="">---State---</option>
+                          <option value="california">California</option>
+                          <option value="florida">Florida</option>
+                          <option value="kentucky">Kentucky</option>
+                          <option value="michigan">Michigan</option>
+                          <option value="newyork">New York</option>
+                        </select>
+                      </li>
+                      <li>
+                        <input
+                          type="text"
+                          name="postcode"
+                          id="postcode"
+                          placeholder="Postcode"
+                          required
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div class="order-form card-info">
+            <ul>
+              <li>
+                <h2 class="headings">Card Information</h2>
+              </li>
+              <li>
+                <ul class="block-list">
+                  <li>
+                    <ul class="align-with-placeholder-3">
+                      <li>
+                        <label for="card-number">*Number:</label>
+                      </li>
+                      <li>
+                        <label for="name-on-card">*Name:</label>
+                      </li>
+                      <li>
+                        <label for="month">*Month:</label>
+                      </li>
+                      <li>
+                        <label for="year">*Year:</label>
+                      </li>
+                      <li>
+                        <label for="cvv">*CVV:</label>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <ul class="align-placeholder">
+                      <li>
+                        <input
+                          type="text"
+                          name="card-number"
+                          id="card-number"
+                          placeholder="Card Number"
+                          required
+                        >
+                      </li>
+                      <li>
+                        <input
+                          type="text"
+                          name="name on card"
+                          id="name-on-card"
+                          placeholder="Name on card"
+                          required
+                        >
+                      </li>
+
+                      <li>
+                        <select
+                          name="month"
+                          id="month"
+                          required
+                        >
+                          <option value="january">January</option>
+                          <option value="february">February</option>
+                          <option value="march">March</option>
+                          <option value="april">April</option>
+                          <option value="may">May</option>
+                          <option value="june">June</option>
+                          <option value="july">July</option>
+                          <option value="august">August</option>
+                          <option value="september">September</option>
+                          <option value="october">October</option>
+                          <option value="november">November</option>
+                          <option value="december">December</option>
+                        </select>
+                      </li>
+
+                      <li>
+                        <select
+                          name="year"
+                          id="year"
+                          required
+                        >
+                          <option value="2024">2024</option>
+                          <option value="2025">2025</option>
+                          <option value="2026">2026</option>
+                          <option value="2027">2027</option>
+                          <option value="2028">2028</option>
+                          <option value="2029">2029</option>
+                          <option value="2030">2030</option>
+                        </select>
+                      </li>
+
+                      <li>
+                        <input
+                          type="text"
+                          name="CVV"
+                          id="cvv"
+                          placeholder="CVV"
+                          minlength="3"
+                          maxlength="3"
+                          required
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span><i>We do not store credit card information!</i></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="form-controls">
+          <ul>
+
+            <h2 class="headings">Form Controls</h2>
+
+            <li>
+              <input
+                type="checkbox"
+                name="terms and conditions"
+                id="terms"
+                required
+              >
+              <label for="terms">
+                *You are not required to confirm to
+                <a
+                  href="/"
+                  title="Terms and conditions"
+                  class="terms"
+                >terms and conditions</a>
+              </label>
+            </li>
+
+            <li>
+              <input
+                type="checkbox"
+                name="agree to receive emails"
+                id="agree-to-emails"
+                checked
+              >
+              <label for="agree-to-emails">Agree to this and <i>we will send you emails</i>.
+              </label>
+            </li>
+            <li>
+              <input
+                type="checkbox"
+                name="gdpr"
+                id="gdpr"
+              >
+              <label for="gdpr">GDPR Generic Consent?</label>
+            </li>
+          </ul>
+        </div>
+
+        <div class="buttons">
+          <button
+            type="submit"
+            class="button place-order"
+          >Place Order</button>
+          <button
+            type="reset"
+            class="button reset"
+          >Reset</button>
+        </div>
+      </form>
+
+      <article>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.
+        </p>
+      </article>
+
+
+    </section>
+  </main>
+
+  <nav class="nav-details">
+    <ul>
+      <li>
+        <a
+          href="https//www.google.com"
+          title="Home"
+        >Home</a> *
+      </li>
+      <li>
+        <a
+          href="https//www.google.com"
+          title="Place Order"
+        >Place Order</a> *
+      </li>
+      <li>
+        <a
+          href="https//www.google.com"
+          title="Customer Service"
+        >Customer Service</a> *
+      </li>
+      <li>
+        <a
+          href="https//www.google.com"
+          title="Contact"
+        >Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+
+</body>
+
+</html>

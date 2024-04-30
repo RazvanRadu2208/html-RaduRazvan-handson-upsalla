@@ -1,0 +1,84 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 5% 25%;
+  padding: 30px 10px;
+}
+
+.headings {
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  padding-bottom: 50px;
+}
+
+.centre {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  text-align: justify;
+}
+
+.main-ul {
+  display: inline-flex;
+  margin-left: -75px;
+}
+
+.parent1 {
+  display: inline-flex;
+  margin-left: -75px;
+  padding-top: 20px;
+  font-size: 100%;
+}
+
+form input::placeholder {
+  font-size: x-small;
+}
+
+.parent1 li ul li label .password {
+  margin-left: 200px;
+}
+
+.child1 li:nth-child(2) {
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 30px;
+  margin-left: -75px;
+  border: none;
+  background-color: blue;
+  color: white;
+  padding: 8px 10px 6px 10px;
+  border-radius: 3px;
+  font-size: 70%;
+}
+
+.parent1 li:last-child {
+  margin-left: 75px;
+}
+
+.child2 li:nth-child(2) {
+  margin-top: 1px;
+}
+
+.child2 li:last-child {
+  margin-top: 2px;
+  margin-left: -5px;
+}
+
+.links li:nth-child(2) {
+  margin-top: 25px;
+}
+
+form label,
+input,
+button {
+  cursor: pointer;
+}
